@@ -1,0 +1,12 @@
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\Assembly-CSharp.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\Assembly-CSharp.pdb
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\UnityEditor.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\UnityEngine.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\UnityEngine.UI.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\Mono.Cecil.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\nunit.framework.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\Unity.DataContract.dll
+U:\Homework\Year 2\GameJam\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+U:\Homework\Year 2\GameJam\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+U:\Homework\Year 2\GameJam\obj\Debug\Assembly-CSharp.dll
+U:\Homework\Year 2\GameJam\obj\Debug\Assembly-CSharp.pdb
