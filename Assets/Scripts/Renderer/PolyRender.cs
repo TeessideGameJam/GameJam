@@ -87,4 +87,9 @@ public class PolyRender
         mMesh.RecalculateNormals();
         mMesh.RecalculateBounds();
     }
+
+    public Mesh GetMesh()
+    {
+        return mMesh;
+    }
 }

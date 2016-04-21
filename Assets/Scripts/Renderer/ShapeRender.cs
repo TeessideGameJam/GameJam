@@ -10,6 +10,7 @@
 using UnityEngine;
 using System.Collections;
 
+[ExecuteInEditMode]
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
 public class ShapeRender : MonoBehaviour
@@ -29,6 +30,11 @@ public class ShapeRender : MonoBehaviour
     {
         MeshFilter meshFilter = GetComponent<MeshFilter>();
         mRender = new PolyRender(meshFilter);
+
+        MeshCollider meshCollider = GetComponent<MeshCollider>();
+        if (meshCollider)
+            meshCollider.sharedMesh = mRender.GetMesh();
+
         UpdateShape();
     }
 

@@ -12,6 +12,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+[ExecuteInEditMode]
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
 public class CustomRender : MonoBehaviour {
@@ -27,6 +28,11 @@ public class CustomRender : MonoBehaviour {
     void Start()
     {
         mRender = new PolyRender(GetComponent<MeshFilter>());
+
+        MeshCollider meshCollider = GetComponent<MeshCollider>();
+        if (meshCollider)
+            meshCollider.sharedMesh = mRender.GetMesh();
+
         UpdateMeshVertices();
     }
 
