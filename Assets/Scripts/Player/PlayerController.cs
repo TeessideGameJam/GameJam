@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour {
     public float speed = 10f;
 
     private Rifle mPlayerRifle = null;
-    public Powerup powerDefensive = null;
-    public Powerup powerOffensive = null;
+    public PowerupUsage powerDefensive = null;
+    public PowerupUsage powerOffensive = null;
 
     void Start()
     {
@@ -37,16 +37,18 @@ public class PlayerController : MonoBehaviour {
                 mPlayerRifle.Shoot();
         }
 
-        if(Input.GetAxis("Xbox Left Trigger") != 0)
+        if(powerDefensive)
         {
-            if (powerDefensive)
-                powerDefensive.UsePowerup();
+            if (Input.GetAxis("Xbox Left Trigger") != 0)
+                powerDefensive.ActivatePowerup();
+            else
+                powerDefensive.DeactivatePowerup();
         }
 
         if(Input.GetAxis("Xbox Right Trigger") !=0)
         {
             if (powerOffensive)
-                powerOffensive.UsePowerup();
+                powerOffensive.ActivatePowerup();
         }
 
 
