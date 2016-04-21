@@ -12,7 +12,6 @@ using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
 
-
 [CustomEditor(typeof(CustomRender))]
 public class InspectorShapeRender : Editor 
 {
@@ -75,6 +74,8 @@ public class InspectorShapeRender : Editor
             // convert the values into a Vector3 (which points is)
             myTarget.points[i] = new Vector3(x, y, 0);
         }
+
+        myTarget.UpdateMeshVertices();
     }
 
 }

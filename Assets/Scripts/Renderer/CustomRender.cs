@@ -40,7 +40,9 @@ public class CustomRender : MonoBehaviour {
     void Update()
     {
         if (debugDrawMode)
+        {
             UpdateMeshVertices();
+        }
     }
 
     /* ----------------------------*/

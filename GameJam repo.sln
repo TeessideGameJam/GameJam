@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{27E8D5C5-178A-6910-2AE3-9413C7163D93}") = "GameJam repo", "Assembly-CSharp.csproj", "{16038407-467A-5004-580B-8F49B5B1C99C}"
+EndProject
+Project("{27E8D5C5-178A-6910-2AE3-9413C7163D93}") = "GameJam repo", "Assembly-CSharp-Editor.csproj", "{807E9289-32D6-B290-BA83-0FDFEAE2B7CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16038407-467A-5004-580B-8F49B5B1C99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16038407-467A-5004-580B-8F49B5B1C99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16038407-467A-5004-580B-8F49B5B1C99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16038407-467A-5004-580B-8F49B5B1C99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807E9289-32D6-B290-BA83-0FDFEAE2B7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807E9289-32D6-B290-BA83-0FDFEAE2B7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807E9289-32D6-B290-BA83-0FDFEAE2B7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807E9289-32D6-B290-BA83-0FDFEAE2B7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+									GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

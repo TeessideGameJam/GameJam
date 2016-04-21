@@ -42,7 +42,9 @@ public class ShapeRender : MonoBehaviour
     void Update()
     {
         if (debugDrawMode)
+        {
             UpdateShape();
+        }
     }
 
     /* -------------------------- */
