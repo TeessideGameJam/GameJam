@@ -10,3 +10,27 @@ U:\Homework\Year 2\GameJam\Temp\bin\Debug\ICSharpCode.NRefactory.dll
 U:\Homework\Year 2\GameJam\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 U:\Homework\Year 2\GameJam\obj\Debug\Assembly-CSharp.dll
 U:\Homework\Year 2\GameJam\obj\Debug\Assembly-CSharp.pdb
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\UnityEditor.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\UnityEngine.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\nunit.framework.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\p4220933\Desktop\GameJam\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\p4220933\Desktop\GameJam\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\p4220933\Desktop\GameJam\obj\Debug\Assembly-CSharp.dll
+C:\Users\p4220933\Desktop\GameJam\obj\Debug\Assembly-CSharp.pdb
+D:\Users\suuunly\Desktop\GameJam\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Users\suuunly\Desktop\GameJam\obj\Debug\Assembly-CSharp.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\UnityEditor.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\UnityEngine.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\Mono.Cecil.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\nunit.framework.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\Unity.DataContract.dll
+D:\Users\suuunly\Desktop\GameJam\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Users\suuunly\Desktop\GameJam\obj\Debug\Assembly-CSharp.pdb

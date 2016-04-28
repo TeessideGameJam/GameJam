@@ -1,32 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PowerupUsage : MonoBehaviour
+public class PowerupUsage : Weapon
 {
-    public float usageLeft = 100f;
-    public float rateOfDecrementation = 0.2f;
-
-    public PowerupShield mCurrPowerup = null;
-    private float mLastDecrease = 0.0f;
-
-    public void SetPowerup(PowerupShield newPowerup)
+    public void Activate()
     {
-        mCurrPowerup = newPowerup.GetComponent<PowerupShield>();
-    }
-
-    public void ActivatePowerup()
-    {
-        if (Time.time > rateOfDecrementation + mLastDecrease && mCurrPowerup &&  usageLeft > 0)
+        if (energy < 0)
         {
-            mCurrPowerup.gameObject.SetActive(true);
-            usageLeft--;
+            Clear();
+            return;
+        }
+
+        if (!mIsFrozen && Time.time > consumptionRate + mLastDecrease)
+        {
+            if (mPowerup)
+            {
+                mPowerup.SetTarget(transform);
+                mPowerup.gameObject.SetActive(true);
+            }
+
+            energy -= consumptionPerTick;
             mLastDecrease = Time.time;
         }
     }
-    
-    public void DeactivatePowerup()
+
+    public void Deactivate()
     {
-        if (mCurrPowerup)
-            mCurrPowerup.gameObject.SetActive(false);
+        if(mPowerup)
+            mPowerup.gameObject.SetActive(false);
     }
+
+    public override void Clear()
+    {
+        Deactivate();
+        mPowerup = null;
+    }
+
+    public override void SetPowerup(PowerupEnum powerupType, float energy, float consumptionPerTick, float consumptionRate)
+    {
+        if (mPowerup)
+            Clear();
+
+        mPowerup = poolManager.PullObject(powerupType);
+        this.energy = energy;
+        this.consumptionPerTick = consumptionPerTick;
+        this.consumptionRate = consumptionRate;
+    }
+
 }
