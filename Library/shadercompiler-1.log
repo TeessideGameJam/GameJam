@@ -1,78 +1,33 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-4612
+Pipe name: \\.\pipe\UnityShaderCompiler-1-5832
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=439 outsize=1185 ok=1
+  insize=2386 outsize=1259 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=4216 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=4 type=0 insize=1317 outsize=2103 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=4216 outsize=1242 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2255 outsize=2875 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2255 outsize=1542 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1783 outsize=1477 kw= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1783 outsize=632 kw= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3968 outsize=2883 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3968 outsize=1152 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+  api=4 type=1 insize=1317 outsize=1583 kw= ok=1
 Cmd: preprocess
-  error: 2 plat 15 at (123): Syntax error
-  error: 1 plat 15 at (146): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
-  error: 1 plat 15 at (380): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
-  insize=5975 outsize=4172 ok=0
+  insize=1808 outsize=713 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1353 outsize=1664 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1353 outsize=1242 kw= ok=1
 Cmd: preprocess
-  insize=443 outsize=1189 ok=1
+  insize=1041 outsize=464 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=848 outsize=1128 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=848 outsize=778 kw= ok=1
 Cmd: preprocess
-  insize=1697 outsize=1039 ok=1
+  insize=1865 outsize=758 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=925 outsize=1599 kw= ok=1
+  api=4 type=0 insize=1370 outsize=1168 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=925 outsize=502 kw= ok=1
+  api=4 type=1 insize=1370 outsize=900 kw= ok=1
 Cmd: preprocess
-  insize=2419 outsize=1870 ok=1
+  insize=990 outsize=390 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=5283 outsize=2753 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  api=4 type=0 insize=871 outsize=1412 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=5283 outsize=2403 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3279 outsize=3021 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3279 outsize=2704 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3279 outsize=1997 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3279 outsize=2290 kw=DIRECTIONAL ok=1
-Cmd: preprocess
-  insize=3550 outsize=2781 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4842 outsize=2753 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4842 outsize=1932 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2838 outsize=3021 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2838 outsize=2233 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5585 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5585 outsize=2493 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3492 outsize=3720 kw=POINT ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3492 outsize=2818 kw=POINT ok=1
-Cmd: preprocess
-  insize=1739 outsize=1641 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=2838 outsize=1997 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=2838 outsize=1818 kw=DIRECTIONAL ok=1
-Cmd: preprocess
-  insize=3762 outsize=3036 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=993 outsize=1599 kw= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=993 outsize=502 kw= ok=1
+  api=4 type=1 insize=871 outsize=543 kw= ok=1

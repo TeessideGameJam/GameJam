@@ -48,6 +48,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\InspectorPoolManager.cs" />
      <Compile Include="Assets\Scripts\Editor\InspectorShapeRender.cs" />
+     <None Include="Assets\Resources\Materials\Grid.shader" />
+     <None Include="Assets\Resources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Resources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\Materials\Test.shader" />
+     <None Include="Assets\Resources\Shaders\GlowCompose.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>

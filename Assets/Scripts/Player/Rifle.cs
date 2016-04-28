@@ -9,7 +9,6 @@ public class Rifle : Weapon
 
     [Header("Rifle Properties")]
     public PowerupEnum bulletType = PowerupEnum.Bullet_normal;
-    public Transform shootingPoint;
 
     public void Shoot()
     {
@@ -21,7 +20,8 @@ public class Rifle : Weapon
             Powerup bullet = poolManager.PullObject(bulletType);
             if (bullet)
             {
-                bullet.SetTarget(shootingPoint);
+                bullet.SetAnchor(anchorPoint);
+                bullet.SetTarget(transform);
                 bullet.gameObject.SetActive(true);
             }
 

@@ -17,6 +17,11 @@ public class PowerDefense_BasicShield : Powerup {
         pc = target.GetComponent<PlayerController>();
     }
 
+    void OnEnable()
+    {
+        transform.position = target.position;
+    }
+
     void OnCollisionEnter2D(Collision2D col)
     {
         if(col.transform.tag == enemyTag)

@@ -15,7 +15,9 @@ public class PowerupUsage : Weapon
         {
             if (mPowerup)
             {
+                mPowerup.SetAnchor(anchorPoint);
                 mPowerup.SetTarget(transform);
+
                 mPowerup.gameObject.SetActive(true);
             }
 

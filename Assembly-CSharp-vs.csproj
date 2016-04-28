@@ -46,6 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Resources\Shaders\GlowEffect.cs" />
+     <Compile Include="Assets\Scripts\CameraPosition.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Unit.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding\Grid.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding\Heap.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding\Node.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding\PathManager.cs" />
+     <Compile Include="Assets\Scripts\Pathfinding\Pathfinding.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Player\PowerupUsage.cs" />
      <Compile Include="Assets\Scripts\Player\Rifle.cs" />
@@ -59,11 +67,17 @@
      <Compile Include="Assets\Scripts\Powerup\Powerups\Bullets\bulletHitDemo.cs" />
      <Compile Include="Assets\Scripts\Powerup\Powerups\Bullets\bulletTraversal.cs" />
      <Compile Include="Assets\Scripts\Powerup\Powerups\Defensive\PowerDefense_BasicShield.cs" />
+     <Compile Include="Assets\Scripts\Powerup\Powerups\Defensive\PowerDefense_FireShield.cs" />
      <Compile Include="Assets\Scripts\Powerup\Powerups\Offensive\PowerOffense_LaserBeam.cs" />
      <Compile Include="Assets\Scripts\Renderer\CustomRender.cs" />
      <Compile Include="Assets\Scripts\Renderer\PolyRender.cs" />
      <Compile Include="Assets\Scripts\Renderer\ShapeRender.cs" />
      <Compile Include="Assets\Scripts\Renderer\Triangulator.cs" />
+     <None Include="Assets\Resources\Materials\Grid.shader" />
+     <None Include="Assets\Resources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Resources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\Materials\Test.shader" />
+     <None Include="Assets\Resources\Shaders\GlowCompose.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>

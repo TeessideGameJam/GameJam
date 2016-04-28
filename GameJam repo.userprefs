@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Renderer\ShapeRender.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Powerup\Powerups\Defensive\PowerDefense_BasicShield.cs">
     <Files>
+      <File FileName="Assets\Scripts\Powerup\Powerups\Defensive\PowerDefense_BasicShield.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Renderer\ShapeRender.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Powerup\PowerupEnum.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

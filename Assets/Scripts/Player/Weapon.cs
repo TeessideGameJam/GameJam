@@ -4,6 +4,7 @@ using System.Collections;
 public abstract class Weapon : MonoBehaviour {
 
     public PoolManager poolManager;
+    public Transform anchorPoint;
 
     [Header("Powerup Usage Properties")]
     public float energy;

@@ -7,6 +7,7 @@
 
     // Defensive Powerups
     Defensive_Shield,
+    Defensive_FireShield,
 
     // Offsensive Powerups
     Offensive_LaserBeam,

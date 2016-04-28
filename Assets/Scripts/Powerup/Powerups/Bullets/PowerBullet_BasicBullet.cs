@@ -7,8 +7,8 @@ public class PowerBullet_BasicBullet : Powerup
     {
         if(target)
         {
-            transform.position = target.position;
-            transform.rotation = target.rotation;
+            transform.position = anchorPoint.position;
+            transform.rotation = anchorPoint.rotation;
             gameObject.SetActive(true);
         }
     }

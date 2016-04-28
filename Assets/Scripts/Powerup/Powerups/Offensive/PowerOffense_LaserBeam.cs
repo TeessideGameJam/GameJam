@@ -5,20 +5,19 @@ public class PowerOffense_LaserBeam : Powerup {
 
     public string enemyTag = "Enemy";
     public float damageRate = 0.2f;
-
     private float mLastTick = 0.0f;
 
     private ShapeRender mEnemyShape = null;
-
     private Rifle mPlayerRifle = null;
 
     void OnEnable()
     {
         if(target)
         {
-            transform.position = target.position;
+            transform.position = anchorPoint.position;
             mPlayerRifle = target.GetComponent<Rifle>();
-            mPlayerRifle.IsFrozen = true;
+            if(mPlayerRifle)
+                mPlayerRifle.IsFrozen = true;
         }
     }
 
