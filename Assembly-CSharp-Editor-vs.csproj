@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{807E9289-32D6-B290-BA83-0FDFEAE2B7CC}</ProjectGuid>
+	<ProjectGuid>{D49985AF-948E-BC00-CCCA-530A9D5C41E5}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\InspectorShapeRender.cs" />
+     <None Include="Assets\Shader\GlowEffectDownsample.shader" />
+     <None Include="Assets\Materials\Grid.shader" />
+     <None Include="Assets\Shader\GlowCompose.shader" />
+     <None Include="Assets\Shader\GlowConeTap.shader" />
+     <None Include="Assets\Materials\Test.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -59,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{16038407-467A-5004-580B-8F49B5B1C99C}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{2884A916-F983-76B9-5683-2DE3627F8E6E}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
