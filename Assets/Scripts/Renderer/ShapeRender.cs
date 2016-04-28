@@ -55,23 +55,27 @@ public class ShapeRender : MonoBehaviour
     {
         if (numberOfEdges < PolyRender.MIN_VERTICES)
             numberOfEdges = PolyRender.MIN_VERTICES;
-
-        mRender.vertices.Clear();
-
-        // determines the angle between each vertex in
-        float angleBetweenPoints = 360 / numberOfEdges;
-        for(int i = 0; i < numberOfEdges; i++)
+        
+        if(mRender != null) // debug: remove and fix
         {
-            // Calculates the angle of the current vertex
-            float newAngle = (angleBetweenPoints * i) * Mathf.Deg2Rad;
+            mRender.vertices.Clear();
 
-            // Calculates the position for the next vertex
-            float newPoint_x = Mathf.Cos(newAngle) - Mathf.Sin(newAngle);
-            float newPoint_y = Mathf.Sin(newAngle) + Mathf.Cos(newAngle);
+            // determines the angle between each vertex in
+            float angleBetweenPoints = 360 / numberOfEdges;
+            for (int i = 0; i < numberOfEdges; i++)
+            {
+                // Calculates the angle of the current vertex
+                float newAngle = (angleBetweenPoints * i) * Mathf.Deg2Rad;
 
-            mRender.vertices.Add(new Vector3(newPoint_x, newPoint_y));
+                // Calculates the position for the next vertex
+                float newPoint_x = Mathf.Cos(newAngle) - Mathf.Sin(newAngle);
+                float newPoint_y = Mathf.Sin(newAngle) + Mathf.Cos(newAngle);
+
+                mRender.vertices.Add(new Vector3(newPoint_x, newPoint_y));
+            }
+
+            mRender.UpdateMesh();
         }
-
-        mRender.UpdateMesh();
+            
     }
 }

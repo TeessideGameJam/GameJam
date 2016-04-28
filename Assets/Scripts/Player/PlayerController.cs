@@ -3,16 +3,13 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+    [Header("Player Properties")]
     public float speed = 10f;
 
-    private Rifle mPlayerRifle = null;
-    public PowerupUsage powerDefensive = null;
-    public PowerupUsage powerOffensive = null;
-
-    void Start()
-    {
-        mPlayerRifle = GetComponent<Rifle>();
-    }
+    [Header("Weapons")]
+    public Rifle rifle;
+    public PowerupUsage powerupDefense;
+    public PowerupUsage powerupOffense;
 
     private bool mIsShooting = false;
 
@@ -33,25 +30,28 @@ public class PlayerController : MonoBehaviour {
             transform.rotation = Quaternion.Slerp(transform.rotation, toRot, deltaSpeed);
 
             // Shoot
-            if(mPlayerRifle)
-                mPlayerRifle.Shoot();
+            if(rifle)
+                rifle.Shoot();
+
         }
 
-        if(powerDefensive)
+        // Defensive Power
+        if (powerupDefense)
         {
-            if (Input.GetAxis("Xbox Left Trigger") != 0)
-                powerDefensive.ActivatePowerup();
+            if (Input.GetAxisRaw("Xbox Left Trigger") != 0)
+                powerupDefense.Activate();
             else
-                powerDefensive.DeactivatePowerup();
+                powerupDefense.Deactivate();
         }
 
-        if(Input.GetAxis("Xbox Right Trigger") !=0)
+        // Offensive Power
+        if (powerupOffense)
         {
-            if (powerOffensive)
-                powerOffensive.ActivatePowerup();
+            if (Input.GetAxisRaw("Xbox Right Trigger") != 0)
+                powerupOffense.Activate();
+            else
+                powerupOffense.Deactivate();
         }
-
-
 
         // Left Analogue (Movement)
         transform.Translate(Input.GetAxis("Horizontal LAS") * deltaSpeed, Input.GetAxis("Vertical LAS") * deltaSpeed, 0, Space.World);   
